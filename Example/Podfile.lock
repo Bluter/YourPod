@@ -1,0 +1,16 @@
+PODS:
+  - YourPod (0.1.0)
+
+DEPENDENCIES:
+  - YourPod (from `../`)
+
+EXTERNAL SOURCES:
+  YourPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YourPod: 0fe9e6b59d34f0b3e939160b9fd2599d91040d74
+
+PODFILE CHECKSUM: 37d745052ef279d5a5119708e0b42e8cbe82e49b
+
+COCOAPODS: 1.5.3

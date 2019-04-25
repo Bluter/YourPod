@@ -1,0 +1,22 @@
+{
+  "name": "YourPod",
+  "version": "0.1.0",
+  "summary": "A short description of YourPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Bluter/YourPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bluter": "LIYAN426@pingan.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/Bluter/YourPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YourPod/Classes/**/*"
+}
