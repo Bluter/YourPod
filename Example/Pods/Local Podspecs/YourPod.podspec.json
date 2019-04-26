@@ -1,22 +1,32 @@
 {
   "name": "YourPod",
-  "version": "0.1.0",
-  "summary": "A short description of YourPod.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "一个简短的pod介绍。。。",
+  "description": "一个很长的描述说明信息",
   "homepage": "https://github.com/Bluter/YourPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Bluter": "LIYAN426@pingan.com.cn"
+    "Bluter": "xx@pxx"
   },
   "source": {
     "git": "https://github.com/Bluter/YourPod.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YourPod/Classes/**/*"
+  "source_files": "YourPod/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "YourPod": [
+      "YourPod/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
 }

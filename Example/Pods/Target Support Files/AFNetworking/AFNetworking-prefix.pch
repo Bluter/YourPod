@@ -10,9 +10,10 @@
 #endif
 #endif
 
-#import "Person.h"
-#import "UIView+TestN.h"
+#ifndef TARGET_OS_IOS
+  #define TARGET_OS_IOS TARGET_OS_IPHONE
+#endif
 
-FOUNDATION_EXPORT double YourPodVersionNumber;
-FOUNDATION_EXPORT const unsigned char YourPodVersionString[];
-
+#ifndef TARGET_OS_WATCH
+  #define TARGET_OS_WATCH 0
+#endif

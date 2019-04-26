@@ -8,11 +8,18 @@
 
 #import "LYAppDelegate.h"
 
+//#import <YourPod/Person.h>
+#import "Person.h"
+
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    Person * person = [Person new];
+    NSLog(@"%@,xx",person.name);
+    
     return YES;
 }
 

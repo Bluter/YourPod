@@ -1,15 +1,42 @@
 PODS:
-  - YourPod (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - YourPod (0.1.1):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - YourPod (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   YourPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YourPod: 0fe9e6b59d34f0b3e939160b9fd2599d91040d74
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  YourPod: 0bc1a872aaf26f49bfafdacbbc3e39e1a9cd57e1
 
 PODFILE CHECKSUM: 37d745052ef279d5a5119708e0b42e8cbe82e49b
 
